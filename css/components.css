@@ -1,0 +1,1224 @@
+/* ==================================================
+   BUTTONS
+================================================== */
+
+.btn {
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: var(--space-12);
+
+    min-height: 56px;
+
+    padding-inline: var(--space-24);
+
+    padding-block: var(--space-16);
+
+    border: 1px solid transparent;
+
+    border-radius: var(--radius-round);
+
+    font-size: var(--font-md);
+
+    font-weight: var(--weight-semibold);
+
+    transition:
+        background var(--transition),
+        color var(--transition),
+        border-color var(--transition),
+        transform var(--transition-fast),
+        box-shadow var(--transition);
+
+    user-select: none;
+
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.btn:active {
+
+    transform: scale(.97);
+
+}
+
+.btn:focus-visible {
+
+    outline: none;
+
+    box-shadow:
+        0 0 0 4px rgba(111,78,55,.18);
+
+}
+
+/* ==================================================
+   PRIMARY BUTTON
+================================================== */
+
+.btn-primary {
+
+    background: var(--primary);
+
+    color: var(--text-white);
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+.btn-primary:hover {
+
+    background: var(--primary-hover);
+
+}
+
+/* ==================================================
+   SECONDARY BUTTON
+================================================== */
+
+.btn-secondary {
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    border-color: var(--border);
+
+    backdrop-filter: blur(var(--blur-medium));
+
+}
+
+.btn-secondary:hover {
+
+    background: var(--surface-hover);
+
+}
+
+/* ==================================================
+   GHOST BUTTON
+================================================== */
+
+.btn-ghost {
+
+    color: var(--primary);
+
+}
+
+.btn-ghost:hover {
+
+    background: rgba(111,78,55,.08);
+
+}
+
+/* ==================================================
+   ICON BUTTON
+================================================== */
+
+.icon-btn {
+
+    display: inline-flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 50%;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    backdrop-filter: blur(var(--blur-medium));
+
+    transition: all var(--transition);
+
+}
+
+.icon-btn:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+.icon-btn:active {
+
+    transform: scale(.96);
+
+}
+
+/* ==================================================
+   CARD
+================================================== */
+
+.card {
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-lg);
+
+    box-shadow: var(--shadow-sm);
+
+    backdrop-filter: blur(var(--blur-medium));
+
+    overflow: hidden;
+
+}
+
+/* ==================================================
+   CARD BODY
+================================================== */
+
+.card-body {
+
+    padding: var(--space-24);
+
+}
+
+/* ==================================================
+   CARD HEADER
+================================================== */
+
+.card-header {
+
+    padding: var(--space-24);
+
+    padding-bottom: var(--space-12);
+
+}
+
+/* ==================================================
+   CARD FOOTER
+================================================== */
+
+.card-footer {
+
+    padding: var(--space-24);
+
+    padding-top: 0;
+
+}
+
+/* ==================================================
+   GLASS
+================================================== */
+
+.glass {
+
+    background: var(--glass);
+
+    border: 1px solid var(--glass-border);
+
+    backdrop-filter: blur(var(--blur-large));
+
+    -webkit-backdrop-filter: blur(var(--blur-large));
+
+}
+
+/* ==================================================
+   BADGES
+================================================== */
+
+.badge {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding-inline: var(--space-12);
+
+    height: 32px;
+
+    border-radius: var(--radius-round);
+
+    font-size: var(--font-sm);
+
+    font-weight: var(--weight-semibold);
+
+}
+
+.badge-primary {
+
+    background: var(--primary);
+
+    color: var(--text-white);
+
+}
+
+.badge-secondary {
+
+    background: var(--secondary-light);
+
+    color: var(--primary);
+
+}
+
+.badge-success {
+
+    background: rgba(78,140,91,.14);
+
+    color: var(--success);
+
+}
+
+/* ==================================================
+   CHIPS
+================================================== */
+
+.chip {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: var(--space-8);
+
+    min-height: 42px;
+
+    padding-inline: var(--space-16);
+
+    border-radius: var(--radius-round);
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    transition:
+        background var(--transition),
+        border-color var(--transition),
+        transform var(--transition-fast);
+
+}
+
+.chip:hover {
+
+    background: var(--surface-hover);
+
+}
+
+.chip.active {
+
+    background: var(--primary);
+
+    border-color: var(--primary);
+
+    color: var(--text-white);
+
+}
+
+/* ==================================================
+   DIVIDER
+================================================== */
+
+.divider {
+
+    width: 100%;
+
+    height: 1px;
+
+    background: var(--border);
+
+}
+
+/* ==================================================
+   SURFACE
+================================================== */
+
+.surface {
+
+    background: var(--surface);
+
+    border-radius: var(--radius-lg);
+
+    border: 1px solid var(--border);
+
+}
+
+/* ==================================================
+   ELEVATED
+================================================== */
+
+.elevated {
+
+    box-shadow: var(--shadow-md);
+
+}
+
+/* ==================================================
+   HOVER LIFT
+================================================== */
+
+.hover-lift {
+
+    transition:
+        transform var(--transition),
+        box-shadow var(--transition);
+
+}
+
+.hover-lift:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+/* ==================================================
+   INPUT GROUP
+================================================== */
+
+.input-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-8);
+
+}
+
+/* ==================================================
+   LABEL
+================================================== */
+
+.label {
+
+    font-size: var(--font-sm);
+
+    font-weight: var(--weight-semibold);
+
+    color: var(--text);
+
+}
+
+/* ==================================================
+   INPUT
+================================================== */
+
+.input {
+
+    width: 100%;
+
+    min-height: 56px;
+
+    padding-inline: var(--space-16);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius-lg);
+
+    background: var(--surface);
+
+    color: var(--text);
+
+    backdrop-filter: blur(var(--blur-medium));
+
+    transition:
+        border-color var(--transition),
+        background var(--transition),
+        box-shadow var(--transition);
+
+}
+
+.input::placeholder {
+
+    color: var(--text-light);
+
+}
+
+.input:focus {
+
+    outline: none;
+
+    border-color: var(--primary);
+
+    box-shadow: 0 0 0 4px rgba(111,78,55,.15);
+
+}
+
+/* ==================================================
+   TEXTAREA
+================================================== */
+
+.textarea {
+
+    min-height: 140px;
+
+    padding: var(--space-16);
+
+    resize: vertical;
+
+}
+
+/* ==================================================
+   SELECT
+================================================== */
+
+.select {
+
+    appearance: none;
+
+    cursor: pointer;
+
+}
+
+/* ==================================================
+   SEARCH
+================================================== */
+
+.search {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.search input {
+
+    padding-left: 52px;
+
+}
+
+.search-icon {
+
+    position: absolute;
+
+    left: var(--space-16);
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: var(--text-light);
+
+    pointer-events: none;
+
+}
+
+/* ==================================================
+   CHECKBOX
+================================================== */
+
+.checkbox {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-16);
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
+
+.checkbox input {
+
+    display: none;
+
+}
+
+.checkbox-box {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 26px;
+
+    height: 26px;
+
+    border-radius: var(--radius-sm);
+
+    border: 2px solid var(--border-strong);
+
+    background: var(--surface);
+
+    transition: all var(--transition);
+
+    flex-shrink: 0;
+
+}
+
+.checkbox input:checked + .checkbox-box {
+
+    background: var(--primary);
+
+    border-color: var(--primary);
+
+    color: var(--text-white);
+
+}
+
+.checkbox-text {
+
+    color: var(--text);
+
+}
+
+/* ==================================================
+   RADIO
+================================================== */
+
+.radio {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-16);
+
+    cursor: pointer;
+
+    user-select: none;
+
+}
+
+.radio input {
+
+    display: none;
+
+}
+
+.radio-circle {
+
+    width: 26px;
+
+    height: 26px;
+
+    border-radius: 50%;
+
+    border: 2px solid var(--border-strong);
+
+    background: var(--surface);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-shrink: 0;
+
+    transition: all var(--transition);
+
+}
+
+.radio-circle::after {
+
+    content: "";
+
+    width: 12px;
+
+    height: 12px;
+
+    border-radius: 50%;
+
+    background: var(--text-white);
+
+    transform: scale(0);
+
+    transition: transform var(--transition);
+
+}
+
+.radio input:checked + .radio-circle {
+
+    background: var(--primary);
+
+    border-color: var(--primary);
+
+}
+
+.radio input:checked + .radio-circle::after {
+
+    transform: scale(1);
+
+}
+
+/* ==================================================
+   SWITCH
+================================================== */
+
+.switch {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: var(--space-12);
+
+    cursor: pointer;
+
+}
+
+.switch input {
+
+    display: none;
+
+}
+
+.switch-track {
+
+    position: relative;
+
+    width: 56px;
+
+    height: 32px;
+
+    border-radius: var(--radius-round);
+
+    background: var(--border);
+
+    transition: background var(--transition);
+
+}
+
+.switch-thumb {
+
+    position: absolute;
+
+    left: 4px;
+
+    top: 4px;
+
+    width: 24px;
+
+    height: 24px;
+
+    border-radius: 50%;
+
+    background: var(--surface-solid);
+
+    transition: transform var(--transition);
+
+    box-shadow: var(--shadow-xs);
+
+}
+
+.switch input:checked + .switch-track {
+
+    background: var(--primary);
+
+}
+
+.switch input:checked + .switch-track .switch-thumb {
+
+    transform: translateX(24px);
+
+}
+
+/* ==================================================
+   FORM ROW
+================================================== */
+
+.form-row {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-20);
+
+}
+
+/* ==================================================
+   FORM
+================================================== */
+
+.form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-24);
+
+}
+
+/* ==================================================
+   FIELDSET
+================================================== */
+
+.fieldset {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: var(--space-16);
+
+    border: none;
+
+}
+
+/* ==================================================
+   HELPER TEXT
+================================================== */
+
+.helper-text {
+
+    font-size: var(--font-sm);
+
+    color: var(--text-light);
+
+}
+
+/* ==================================================
+   ERROR
+================================================== */
+
+.error-text {
+
+    font-size: var(--font-sm);
+
+    color: var(--danger);
+
+}
+
+/* ==================================================
+   REQUIRED
+================================================== */
+
+.required {
+
+    color: var(--danger);
+
+}
+
+/* ==================================================
+   HOVER STATES
+================================================== */
+
+@media (hover: hover) {
+
+    .input:hover {
+
+        background: var(--surface-hover);
+
+    }
+
+    .checkbox:hover .checkbox-box {
+
+        border-color: var(--primary-light);
+
+    }
+
+    .radio:hover .radio-circle {
+
+        border-color: var(--primary-light);
+
+    }
+
+}
+
+/* ==================================================
+   PROGRESS
+================================================== */
+
+.progress {
+
+    width: 100%;
+
+    height: 10px;
+
+    background: var(--border);
+
+    border-radius: var(--radius-round);
+
+    overflow: hidden;
+
+}
+
+.progress-bar {
+
+    width: 0;
+
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        var(--primary),
+        var(--secondary)
+    );
+
+    border-radius: inherit;
+
+    transition: width .35s ease;
+
+}
+
+/* ==================================================
+   MODAL
+================================================== */
+
+.modal-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: var(--space-24);
+
+    background: rgba(0,0,0,.42);
+
+    backdrop-filter: blur(var(--blur-small));
+
+    pointer-events: auto;
+
+}
+
+.modal {
+
+    width: min(100%, 520px);
+
+    background: var(--surface-solid);
+
+    border-radius: var(--radius-xl);
+
+    border: 1px solid var(--border);
+
+    box-shadow: var(--shadow-lg);
+
+    overflow: hidden;
+
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+
+    padding: var(--space-24);
+
+}
+
+.modal-footer {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: var(--space-12);
+
+}
+
+/* ==================================================
+   BOTTOM SHEET
+================================================== */
+
+.bottom-sheet {
+
+    position: fixed;
+
+    left: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    background: var(--surface-solid);
+
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+
+    box-shadow: var(--shadow-lg);
+
+    padding: var(--space-24);
+
+    max-height: 85vh;
+
+    overflow-y: auto;
+
+}
+
+.bottom-sheet-handle {
+
+    width: 48px;
+
+    height: 5px;
+
+    margin: 0 auto var(--space-20);
+
+    border-radius: var(--radius-round);
+
+    background: var(--border);
+
+}
+
+/* ==================================================
+   TOAST
+================================================== */
+
+.toast {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: var(--space-16);
+
+    min-width: 280px;
+
+    padding: var(--space-16);
+
+    border-radius: var(--radius-lg);
+
+    background: var(--surface-solid);
+
+    border: 1px solid var(--border);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+.toast-success {
+
+    border-left: 4px solid var(--success);
+
+}
+
+.toast-warning {
+
+    border-left: 4px solid var(--warning);
+
+}
+
+.toast-error {
+
+    border-left: 4px solid var(--danger);
+
+}
+
+/* ==================================================
+   SPINNER
+================================================== */
+
+.spinner {
+
+    width: 28px;
+
+    height: 28px;
+
+    border-radius: 50%;
+
+    border: 3px solid var(--border);
+
+    border-top-color: var(--primary);
+
+    animation: spin .8s linear infinite;
+
+}
+
+/* ==================================================
+   SKELETON
+================================================== */
+
+.skeleton {
+
+    position: relative;
+
+    overflow: hidden;
+
+    background: rgba(0,0,0,.06);
+
+    border-radius: var(--radius-md);
+
+}
+
+.skeleton::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    transform: translateX(-100%);
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    );
+
+    animation: skeleton-loading 1.3s infinite;
+
+}
+
+/* ==================================================
+   TOOLTIP
+================================================== */
+
+.tooltip {
+
+    position: absolute;
+
+    padding: var(--space-8) var(--space-12);
+
+    background: var(--text);
+
+    color: var(--text-white);
+
+    font-size: var(--font-sm);
+
+    border-radius: var(--radius-sm);
+
+    white-space: nowrap;
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+/* ==================================================
+   ACCORDION
+================================================== */
+
+.accordion {
+
+    border-radius: var(--radius-lg);
+
+    overflow: hidden;
+
+    border: 1px solid var(--border);
+
+}
+
+.accordion-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: var(--space-20);
+
+    cursor: pointer;
+
+    background: var(--surface);
+
+}
+
+.accordion-content {
+
+    padding: var(--space-20);
+
+    display: none;
+
+}
+
+.accordion.open .accordion-content {
+
+    display: block;
+
+}
+
+/* ==================================================
+   FAB
+================================================== */
+
+.fab {
+
+    position: fixed;
+
+    right: var(--space-24);
+
+    bottom: var(--space-24);
+
+    width: 64px;
+
+    height: 64px;
+
+    border-radius: 50%;
+
+    background: var(--primary);
+
+    color: var(--text-white);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    box-shadow: var(--shadow-lg);
+
+    z-index: var(--z-header);
+
+}
+
+/* ==================================================
+   EMPTY STATE
+================================================== */
+
+.empty-state {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: var(--space-16);
+
+    padding: var(--space-64);
+
+    text-align: center;
+
+}
+
+.empty-state-icon {
+
+    font-size: 4rem;
+
+}
+
+/* ==================================================
+   KEYFRAMES
+================================================== */
+
+@keyframes spin {
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+@keyframes skeleton-loading {
+
+    to {
+
+        transform: translateX(100%);
+
+    }
+
+}
