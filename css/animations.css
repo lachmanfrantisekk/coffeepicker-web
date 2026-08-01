@@ -1,0 +1,570 @@
+/* ==================================================
+   FADE IN
+================================================== */
+
+.fade-in {
+
+    animation: fade-in .35s ease forwards;
+
+}
+
+@keyframes fade-in {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+
+/* ==================================================
+   FADE UP
+================================================== */
+
+.fade-up {
+
+    animation: fade-up .45s ease forwards;
+
+}
+
+@keyframes fade-up {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(24px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ==================================================
+   FADE DOWN
+================================================== */
+
+.fade-down {
+
+    animation: fade-down .45s ease forwards;
+
+}
+
+@keyframes fade-down {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(-24px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ==================================================
+   SCALE IN
+================================================== */
+
+.scale-in {
+
+    animation: scale-in .3s ease forwards;
+
+}
+
+@keyframes scale-in {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(.92);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
+
+}
+
+/* ==================================================
+   POP
+================================================== */
+
+.pop {
+
+    animation: pop .35s ease;
+
+}
+
+@keyframes pop {
+
+    0% {
+
+        transform: scale(.94);
+
+    }
+
+    60% {
+
+        transform: scale(1.03);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+/* ==================================================
+   TOAST
+================================================== */
+
+.toast-enter {
+
+    animation: toast-enter .35s ease forwards;
+
+}
+
+.toast-exit {
+
+    animation: toast-exit .25s ease forwards;
+
+}
+
+@keyframes toast-enter {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateX(40px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+
+    }
+
+}
+
+@keyframes toast-exit {
+
+    to {
+
+        opacity: 0;
+
+        transform: translateX(40px);
+
+    }
+
+}
+
+/* ==================================================
+   MODAL
+================================================== */
+
+.modal-enter {
+
+    animation: modal-enter .28s ease forwards;
+
+}
+
+.modal-exit {
+
+    animation: modal-exit .2s ease forwards;
+
+}
+
+@keyframes modal-enter {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(24px) scale(.96);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0) scale(1);
+
+    }
+
+}
+
+@keyframes modal-exit {
+
+    to {
+
+        opacity: 0;
+
+        transform: translateY(20px) scale(.96);
+
+    }
+
+}
+
+/* ==================================================
+   BOTTOM SHEET
+================================================== */
+
+.sheet-enter {
+
+    animation: sheet-enter .35s ease forwards;
+
+}
+
+.sheet-exit {
+
+    animation: sheet-exit .25s ease forwards;
+
+}
+
+@keyframes sheet-enter {
+
+    from {
+
+        transform: translateY(100%);
+
+    }
+
+    to {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+@keyframes sheet-exit {
+
+    to {
+
+        transform: translateY(100%);
+
+    }
+
+}
+
+/* ==================================================
+   LOADING
+================================================== */
+
+.loading-pulse {
+
+    animation: loading-pulse 1.8s ease infinite;
+
+}
+
+@keyframes loading-pulse {
+
+    0%,
+    100% {
+
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
+
+    50% {
+
+        transform: scale(1.08);
+
+        opacity: .82;
+
+    }
+
+}
+
+/* ==================================================
+   FLOAT
+================================================== */
+
+.float {
+
+    animation: float 8s ease-in-out infinite;
+
+}
+
+@keyframes float {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-18px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ==================================================
+   BLOBS
+================================================== */
+
+.blob {
+
+    animation: blob 20s ease-in-out infinite alternate;
+
+}
+
+@keyframes blob {
+
+    0% {
+
+        transform:
+            translate(0,0)
+            scale(1);
+
+    }
+
+    50% {
+
+        transform:
+            translate(50px,-40px)
+            scale(1.15);
+
+    }
+
+    100% {
+
+        transform:
+            translate(-40px,30px)
+            scale(.95);
+
+    }
+
+}
+
+/* ==================================================
+   SHIMMER
+================================================== */
+
+.shimmer {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.shimmer::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: linear-gradient(
+
+        120deg,
+
+        transparent,
+
+        rgba(255,255,255,.35),
+
+        transparent
+
+    );
+
+    transform: translateX(-100%);
+
+    animation: shimmer 2.5s linear infinite;
+
+}
+
+@keyframes shimmer {
+
+    to {
+
+        transform: translateX(100%);
+
+    }
+
+}
+
+/* ==================================================
+   SPIN
+================================================== */
+
+.spin {
+
+    animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+/* ==================================================
+   SHAKE
+================================================== */
+
+.shake {
+
+    animation: shake .45s ease;
+
+}
+
+@keyframes shake {
+
+    20% {
+
+        transform: translateX(-6px);
+
+    }
+
+    40% {
+
+        transform: translateX(6px);
+
+    }
+
+    60% {
+
+        transform: translateX(-4px);
+
+    }
+
+    80% {
+
+        transform: translateX(4px);
+
+    }
+
+}
+
+/* ==================================================
+   RIPPLE
+================================================== */
+
+.ripple {
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.ripple::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    border-radius: inherit;
+
+    background: rgba(255,255,255,.18);
+
+    opacity: 0;
+
+    transform: scale(0);
+
+}
+
+.ripple:active::after {
+
+    animation: ripple .45s ease;
+
+}
+
+@keyframes ripple {
+
+    from {
+
+        opacity: .45;
+
+        transform: scale(0);
+
+    }
+
+    to {
+
+        opacity: 0;
+
+        transform: scale(2.2);
+
+    }
+
+}
+
+/* ==================================================
+   REDUCED MOTION
+================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+
+        animation-duration: .01ms !important;
+
+        animation-iteration-count: 1 !important;
+
+        transition-duration: .01ms !important;
+
+        scroll-behavior: auto !important;
+
+    }
+
+}
