@@ -1,0 +1,726 @@
+[
+  {
+    "id": "starbucks-blonde-espresso-roast",
+    "brand": "Starbucks",
+    "system": "Nespresso Original",
+    "collection": "Espresso",
+
+    "name": "Blonde Espresso Roast",
+    "slug": "blonde-espresso-roast",
+
+    "decaf": false,
+    "intensity": 6,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Light",
+
+    "officialNotes": [
+      "Sweet",
+      "Smooth"
+    ],
+
+    "description": "Jemné espresso se sladkým charakterem, sametovým tělem a lehkým pražením.",
+
+    "profile": {
+      "body": 3,
+      "acidity": 4,
+      "bitterness": 2,
+      "sweetness": 7,
+
+      "chocolate": 2,
+      "nutty": 3,
+      "caramel": 5,
+      "vanilla": 2,
+      "fruity": 3,
+      "floral": 2,
+      "spicy": 0,
+      "cereal": 5,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "blonde-espresso-roast.webp",
+      "box": "blonde-espresso-roast-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "starbucks-espresso-roast",
+    "brand": "Starbucks",
+    "system": "Nespresso Original",
+    "collection": "Espresso",
+
+    "name": "Espresso Roast",
+    "slug": "espresso-roast",
+
+    "decaf": false,
+    "intensity": 11,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Rich",
+      "Caramel"
+    ],
+
+    "description": "Ikonické espresso Starbucks s bohatým tělem, karamelovou sladkostí a dlouhou dochutí.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 3,
+
+      "chocolate": 8,
+      "nutty": 5,
+      "caramel": 8,
+      "vanilla": 1,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 2,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "espresso-roast.webp",
+      "box": "espresso-roast-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "starbucks-decaf-espresso-roast",
+    "brand": "Starbucks",
+    "system": "Nespresso Original",
+    "collection": "Espresso",
+
+    "name": "Decaf Espresso Roast",
+    "slug": "decaf-espresso-roast",
+
+    "decaf": true,
+    "intensity": 11,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Rich",
+      "Caramel"
+    ],
+
+    "description": "Bezkofeinová varianta Espresso Roast se zachovaným plným tělem a karamelovým charakterem.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 3,
+
+      "chocolate": 8,
+      "nutty": 5,
+      "caramel": 8,
+      "vanilla": 1,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 2,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "decaf-espresso-roast.webp",
+      "box": "decaf-espresso-roast-box.webp"
+    },
+
+    "popularity": 4
+  },
+
+  {
+    "id": "starbucks-pike-place-roast",
+    "brand": "Starbucks",
+    "system": "Nespresso Original",
+    "collection": "Medium Roast",
+
+    "name": "Pike Place Roast",
+    "slug": "pike-place-roast",
+
+    "decaf": false,
+    "intensity": 7,
+
+    "cupSizes": [
+      "Lungo"
+    ],
+
+    "roast": "Medium",
+
+    "officialNotes": [
+      "Chocolate",
+      "Toasted Nuts"
+    ],
+
+    "description": "Vyvážená směs s jemnými čokoládovými tóny a praženými oříšky.",
+
+    "profile": {
+      "body": 4,
+      "acidity": 3,
+      "bitterness": 2,
+      "sweetness": 5,
+
+      "chocolate": 7,
+      "nutty": 7,
+      "caramel": 4,
+      "vanilla": 1,
+      "fruity": 2,
+      "floral": 1,
+      "spicy": 0,
+      "cereal": 5,
+
+      "milk": 4
+    },
+
+    "assets": {
+      "capsule": "pike-place-roast.webp",
+      "box": "pike-place-roast-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "starbucks-house-blend",
+    "brand": "Starbucks",
+    "system": "Nespresso Original",
+    "collection": "Medium Roast",
+
+    "name": "House Blend",
+    "slug": "house-blend",
+
+    "decaf": false,
+    "intensity": 8,
+
+    "cupSizes": [
+      "Lungo"
+    ],
+
+    "roast": "Medium",
+
+    "officialNotes": [
+      "Cocoa",
+      "Toffee"
+    ],
+
+    "description": "Typická směs Starbucks s kakaovým charakterem, jemnou sladkostí a vyváženým tělem.",
+
+    "profile": {
+      "body": 4,
+      "acidity": 3,
+      "bitterness": 3,
+      "sweetness": 5,
+
+      "chocolate": 8,
+      "nutty": 5,
+      "caramel": 5,
+      "vanilla": 1,
+      "fruity": 2,
+      "floral": 1,
+      "spicy": 1,
+      "cereal": 4,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "house-blend.webp",
+      "box": "house-blend-box.webp"
+    },
+
+    "popularity": 5
+  },
+{
+  "id": "starbucks-colombia",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Medium Roast",
+
+  "name": "Colombia",
+
+  "slug": "colombia",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Nutty",
+    "Balanced"
+  ],
+
+  "description": "100% kolumbijská arabika s vyváženým tělem, jemnou ořechovou chutí a příjemnou kyselostí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 3,
+    "nutty": 7,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 5,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "colombia.webp",
+    "box": "colombia-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "starbucks-single-origin-colombia",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Medium Roast",
+
+  "name": "Single-Origin Colombia",
+
+  "slug": "single-origin-colombia",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Juicy",
+    "Nutty"
+  ],
+
+  "description": "Jednodruhová kolumbijská arabika s ovocnou svěžestí, jemnou sladkostí a ořechovým závěrem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 3,
+    "nutty": 7,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 6,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "single-origin-colombia.webp",
+    "box": "single-origin-colombia-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "starbucks-caffe-verona",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Dark Roast",
+
+  "name": "Caffè Verona",
+
+  "slug": "caffe-verona",
+
+  "decaf": false,
+  "intensity": 10,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Dark Cocoa",
+    "Caramelized Sugar"
+  ],
+
+  "description": "Tmavě pražená směs s výraznou chutí hořké čokolády a karamelizovaného cukru.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 3,
+
+    "chocolate": 10,
+    "nutty": 4,
+    "caramel": 6,
+    "vanilla": 1,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 2,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "caffe-verona.webp",
+    "box": "caffe-verona-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "starbucks-sumatra",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Dark Roast",
+
+  "name": "Sumatra",
+
+  "slug": "sumatra",
+
+  "decaf": false,
+  "intensity": 10,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Earthy",
+    "Herbal"
+  ],
+
+  "description": "Plná indonéská káva s charakteristickými zemitými tóny a dlouhou dochutí.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 6,
+    "nutty": 5,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 5,
+    "cereal": 3,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "sumatra.webp",
+    "box": "sumatra-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "starbucks-italian-style-roast",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Dark Roast",
+
+  "name": "Italian Style Roast",
+
+  "slug": "italian-style-roast",
+
+  "decaf": false,
+  "intensity": 11,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Dark Cocoa",
+    "Roasted"
+  ],
+
+  "description": "Velmi intenzivní tmavě pražená směs s výraznými kakaovými tóny a dlouhou dochutí.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 1,
+    "bitterness": 5,
+    "sweetness": 2,
+
+    "chocolate": 9,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 2,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "italian-style-roast.webp",
+    "box": "italian-style-roast-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "starbucks-kenya",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Dark Roast",
+
+  "name": "Kenya",
+
+  "slug": "kenya",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Berry",
+    "Citrus"
+  ],
+
+  "description": "Africká arabika s výraznou ovocností, citrusovou kyselostí a plným tělem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 7,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 9,
+    "floral": 3,
+    "spicy": 0,
+    "cereal": 2,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "kenya.webp",
+    "box": "kenya-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "starbucks-caramel",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Flavoured",
+
+  "name": "Caramel",
+
+  "slug": "caramel",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Sweet"
+  ],
+
+  "description": "Ochucená směs s jemnou karamelovou chutí a vyváženým kávovým základem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 10,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "caramel.webp",
+    "box": "caramel-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "starbucks-vanilla",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Flavoured",
+
+  "name": "Vanilla",
+
+  "slug": "vanilla",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Vanilla",
+    "Sweet"
+  ],
+
+  "description": "Ochucená směs s jemnou vanilkovou vůní a příjemně sladkým profilem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 4,
+    "vanilla": 10,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "vanilla.webp",
+    "box": "vanilla-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "starbucks-decaf-house-blend",
+  "brand": "Starbucks",
+  "system": "Nespresso Original",
+  "collection": "Medium Roast",
+
+  "name": "Decaf House Blend",
+
+  "slug": "decaf-house-blend",
+
+  "decaf": true,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cocoa",
+    "Toffee"
+  ],
+
+  "description": "Bezkofeinová varianta House Blend s jemnými kakaovými tóny a vyváženým tělem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 3,
+    "bitterness": 3,
+    "sweetness": 5,
+
+    "chocolate": 8,
+    "nutty": 5,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 1,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "decaf-house-blend.webp",
+    "box": "decaf-house-blend-box.webp"
+  },
+
+  "popularity": 4
+}
