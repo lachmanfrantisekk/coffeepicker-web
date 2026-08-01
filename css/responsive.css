@@ -1,0 +1,265 @@
+/* ==================================================
+   TABLET
+   >= 768px
+================================================== */
+
+@media (min-width: 768px) {
+
+    :root {
+
+        --container-padding: 32px;
+
+    }
+
+    section {
+
+        padding-block: var(--space-80);
+
+    }
+
+    .form-row {
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .card-body,
+    .card-header,
+    .card-footer {
+
+        padding: var(--space-32);
+
+    }
+
+    .modal {
+
+        max-width: 600px;
+
+    }
+
+    .bottom-sheet {
+
+        max-width: 640px;
+
+        left: 50%;
+
+        right: auto;
+
+        transform: translateX(-50%);
+
+        border-radius: var(--radius-xl);
+
+        bottom: var(--space-24);
+
+    }
+
+    .toast {
+
+        min-width: 340px;
+
+    }
+
+}
+
+/* ==================================================
+   SMALL DESKTOP
+   >= 1024px
+================================================== */
+
+@media (min-width: 1024px) {
+
+    :root {
+
+        --container-padding: 40px;
+
+    }
+
+    body {
+
+        font-size: 1.05rem;
+
+    }
+
+    h1 {
+
+        font-size: var(--font-4xl);
+
+    }
+
+    h2 {
+
+        font-size: var(--font-3xl);
+
+    }
+
+    h3 {
+
+        font-size: var(--font-2xl);
+
+    }
+
+    .container {
+
+        max-width: 1180px;
+
+    }
+
+    .card {
+
+        transition:
+            transform var(--transition),
+            box-shadow var(--transition);
+
+    }
+
+    @media (hover: hover) {
+
+        .card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow: var(--shadow-md);
+
+        }
+
+    }
+
+}
+
+/* ==================================================
+   LARGE DESKTOP
+   >= 1440px
+================================================== */
+
+@media (min-width: 1440px) {
+
+    .container {
+
+        max-width: 1320px;
+
+    }
+
+    body {
+
+        font-size: 1.08rem;
+
+    }
+
+}
+
+/* ==================================================
+   ULTRAWIDE
+   >= 1920px
+================================================== */
+
+@media (min-width: 1920px) {
+
+    .container {
+
+        max-width: 1440px;
+
+    }
+
+}
+
+/* ==================================================
+   LANDSCAPE PHONES
+================================================== */
+
+@media (max-height: 520px) and (orientation: landscape) {
+
+    section {
+
+        padding-block: var(--space-40);
+
+    }
+
+    #loading-screen {
+
+        gap: var(--space-8);
+
+    }
+
+    .loading-logo {
+
+        width: 64px;
+
+        height: 64px;
+
+        font-size: 1.75rem;
+
+    }
+
+}
+
+/* ==================================================
+   HOVER DEVICES
+================================================== */
+
+@media (hover: hover) {
+
+    .btn:hover {
+
+        transform: translateY(-2px);
+
+    }
+
+    .chip:hover {
+
+        transform: translateY(-2px);
+
+    }
+
+    .icon-btn:hover {
+
+        transform: translateY(-3px);
+
+    }
+
+}
+
+/* ==================================================
+   TOUCH DEVICES
+================================================== */
+
+@media (hover: none) {
+
+    .btn,
+    .chip,
+    .icon-btn {
+
+        transition:
+            transform .12s ease,
+            background var(--transition);
+
+    }
+
+}
+
+/* ==================================================
+   PRINT
+================================================== */
+
+@media print {
+
+    #background,
+    #toast-root,
+    #modal-root,
+    #loading-screen,
+    .fab {
+
+        display: none !important;
+
+    }
+
+    body {
+
+        background: white;
+
+        color: black;
+
+    }
+
+}
