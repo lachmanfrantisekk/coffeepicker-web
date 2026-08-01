@@ -1,0 +1,1799 @@
+[
+  {
+    "id": "nespresso-original-arpeggio",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Arpeggio",
+    "slug": "arpeggio",
+
+    "decaf": false,
+    "intensity": 9,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Cocoa",
+      "Roasted"
+    ],
+
+    "description": "Intenzivní a krémové espresso s výraznými kakaovými tóny.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 3,
+
+      "chocolate": 9,
+      "nutty": 5,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 2,
+      "floral": 0,
+      "spicy": 3,
+      "cereal": 2,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "arpeggio.webp",
+      "box": "arpeggio-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-original-arpeggio-decaffeinato",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Arpeggio Decaffeinato",
+    "slug": "arpeggio-decaffeinato",
+
+    "decaf": true,
+    "intensity": 9,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Cocoa",
+      "Roasted"
+    ],
+
+    "description": "Bezkofeinová varianta Arpeggia se zachovaným kakaovým charakterem.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 3,
+
+      "chocolate": 9,
+      "nutty": 5,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 2,
+      "floral": 0,
+      "spicy": 3,
+      "cereal": 2,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "arpeggio-decaffeinato.webp",
+      "box": "arpeggio-decaffeinato-box.webp"
+    },
+
+    "popularity": 4
+  },
+
+  {
+    "id": "nespresso-original-napoli",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Ispirazione Napoli",
+    "slug": "napoli",
+
+    "decaf": false,
+    "intensity": 13,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Very Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Bitter Cocoa"
+    ],
+
+    "description": "Velmi intenzivní espresso inspirované neapolskou tradicí pražení.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 1,
+      "bitterness": 5,
+      "sweetness": 2,
+
+      "chocolate": 10,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 6,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "napoli.webp",
+      "box": "napoli-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-original-napoli-decaffeinato",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Ispirazione Napoli Decaffeinato",
+    "slug": "napoli-decaffeinato",
+
+    "decaf": true,
+    "intensity": 13,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Very Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Bitter Cocoa"
+    ],
+
+    "description": "Bezkofeinová varianta Ispirazione Napoli se zachovanou intenzitou chuti.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 1,
+      "bitterness": 5,
+      "sweetness": 2,
+
+      "chocolate": 10,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 6,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "napoli-decaffeinato.webp",
+      "box": "napoli-decaffeinato-box.webp"
+    },
+
+    "popularity": 4
+  },
+
+  {
+    "id": "nespresso-original-ristretto-italiano",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Ristretto Italiano",
+    "slug": "ristretto-italiano",
+
+    "decaf": false,
+    "intensity": 10,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Pepper"
+    ],
+
+    "description": "Komplexní espresso s intenzivní praženou chutí a kořenitým charakterem.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 8,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 2,
+      "floral": 1,
+      "spicy": 7,
+      "cereal": 2,
+
+      "milk": 4
+    },
+
+    "assets": {
+      "capsule": "ristretto-italiano.webp",
+      "box": "ristretto-italiano-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-original-ristretto-decaffeinato",
+    "brand": "Nespresso",
+    "system": "Original",
+    "collection": "Ispirazione Italiana",
+
+    "name": "Ristretto Decaffeinato",
+    "slug": "ristretto-decaffeinato",
+
+    "decaf": true,
+    "intensity": 10,
+
+    "cupSizes": [
+      "Ristretto",
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Pepper"
+    ],
+
+    "description": "Bezkofeinová varianta Ristretto Italiano s plným tělem a kořenitými tóny.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 8,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 2,
+      "floral": 1,
+      "spicy": 7,
+      "cereal": 2,
+
+      "milk": 4
+    },
+
+    "assets": {
+      "capsule": "ristretto-decaffeinato.webp",
+      "box": "ristretto-decaffeinato-box.webp"
+    },
+
+    "popularity": 4
+  },
+{
+  "id": "nespresso-original-kazaar",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Ispirazione Italiana",
+
+  "name": "Kazaar",
+  "slug": "kazaar",
+
+  "decaf": false,
+  "intensity": 12,
+
+  "cupSizes": [
+    "Ristretto",
+    "Espresso"
+  ],
+
+  "roast": "Very Dark",
+
+  "officialNotes": [
+    "Woody",
+    "Spices"
+  ],
+
+  "description": "Výjimečně intenzivní espresso se sirupovým tělem, dřevitými a kořenitými tóny.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 1,
+    "bitterness": 5,
+    "sweetness": 1,
+
+    "chocolate": 9,
+    "nutty": 3,
+    "caramel": 1,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 8,
+    "cereal": 2,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "kazaar.webp",
+    "box": "kazaar-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-roma",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Ispirazione Italiana",
+
+  "name": "Ispirazione Roma",
+  "slug": "roma",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Ristretto",
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Woody"
+  ],
+
+  "description": "Vyvážené espresso s jemnými dřevitými a cereálními tóny.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 6,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 6,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "roma.webp",
+    "box": "roma-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-roma-decaffeinato",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Decaffeinato",
+
+  "name": "Roma Decaffeinato",
+  "slug": "roma-decaffeinato",
+
+  "decaf": true,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Ristretto",
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Woody"
+  ],
+
+  "description": "Bezkofeinová varianta Roma s plným tělem a jemnými dřevitými tóny.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 6,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 6,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "roma-decaffeinato.webp",
+    "box": "roma-decaffeinato-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-venezia",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Ispirazione Italiana",
+
+  "name": "Ispirazione Venezia",
+  "slug": "venezia",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Ristretto",
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Roasted"
+  ],
+
+  "description": "Harmonicky vyvážené espresso s karamelovými tóny a plným tělem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 3,
+    "bitterness": 3,
+    "sweetness": 4,
+
+    "chocolate": 5,
+    "nutty": 5,
+    "caramel": 8,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 5,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "venezia.webp",
+    "box": "venezia-box.webp"
+  },
+
+  "popularity": 4
+},
+{
+  "id": "nespresso-original-livanto",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Espresso",
+
+  "name": "Livanto",
+  "slug": "livanto",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Cereal"
+  ],
+
+  "description": "Vyvážené espresso s karamelovými a obilnými tóny.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 3,
+    "nutty": 4,
+    "caramel": 8,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 1,
+    "cereal": 7,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "livanto.webp",
+    "box": "livanto-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-capriccio",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Espresso",
+
+  "name": "Capriccio",
+  "slug": "capriccio",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Light Acidity"
+  ],
+
+  "description": "Espresso s jemnou kyselostí, cereálními tóny a bohatou cremou.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 3,
+
+    "chocolate": 2,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 5,
+    "floral": 2,
+    "spicy": 1,
+    "cereal": 8,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "capriccio.webp",
+    "box": "capriccio-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-cosi",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Espresso",
+
+  "name": "Cosi",
+  "slug": "cosi",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Citrus",
+    "Light Roast"
+  ],
+
+  "description": "Lehké espresso s citrusovou svěžestí a jemným pražením.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 6,
+    "bitterness": 1,
+    "sweetness": 4,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 1,
+    "fruity": 8,
+    "floral": 3,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "cosi.webp",
+    "box": "cosi-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-volluto",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Espresso",
+
+  "name": "Volluto",
+  "slug": "volluto",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Sweet Biscuit",
+    "Fruit"
+  ],
+
+  "description": "Jemné espresso se sladkými sušenkovými tóny a lehkou ovocností.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 4,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 7,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "volluto.webp",
+    "box": "volluto-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-volluto-decaffeinato",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Decaffeinato",
+
+  "name": "Volluto Decaffeinato",
+  "slug": "volluto-decaffeinato",
+
+  "decaf": true,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Sweet Biscuit",
+    "Fruit"
+  ],
+
+  "description": "Bezkofeinová varianta Volluto s jemnou sladkostí a ovocnými tóny.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 4,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 7,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "volluto-decaffeinato.webp",
+    "box": "volluto-decaffeinato-box.webp"
+  },
+
+  "popularity": 4
+},
+{
+  "id": "nespresso-original-stockholm-fortissio-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Stockholm Fortissio Lungo",
+  "slug": "stockholm-fortissio-lungo",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Malted Cereal",
+    "Sweet"
+  ],
+
+  "description": "Plné lungo s obilnými tóny, sladovým charakterem a jemnou sladkostí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 4,
+
+    "chocolate": 3,
+    "nutty": 5,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 1,
+    "cereal": 8,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "stockholm-fortissio-lungo.webp",
+    "box": "stockholm-fortissio-lungo-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-tokyo-vivalto-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Tokyo Vivalto Lungo",
+  "slug": "tokyo-vivalto-lungo",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Floral",
+    "Complex"
+  ],
+
+  "description": "Elegantní lungo s květinovým aroma a jemnou ovocnou svěžestí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 4,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 1,
+    "fruity": 6,
+    "floral": 8,
+    "spicy": 1,
+    "cereal": 4,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "tokyo-vivalto-lungo.webp",
+    "box": "tokyo-vivalto-lungo-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-vienna-linizio-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Vienna Linizio Lungo",
+  "slug": "vienna-linizio-lungo",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Malty",
+    "Sweet"
+  ],
+
+  "description": "Jemné lungo s nasládlým sladovým charakterem a lehkým tělem.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 3,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 1,
+    "nutty": 3,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 3,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 7,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "vienna-linizio-lungo.webp",
+    "box": "vienna-linizio-lungo-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-cape-town-envivo-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Cape Town Envivo Lungo",
+  "slug": "cape-town-envivo-lungo",
+
+  "decaf": false,
+  "intensity": 10,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Woody"
+  ],
+
+  "description": "Intenzivní lungo s výraznými praženými a dřevitými tóny.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 7,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 4,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "cape-town-envivo-lungo.webp",
+    "box": "cape-town-envivo-lungo-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-shanghai-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Shanghai Lungo",
+  "slug": "shanghai-lungo",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Red Fruit",
+    "Floral"
+  ],
+
+  "description": "Jemné lungo s ovocnými tóny a květinovým aroma.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 1,
+    "fruity": 8,
+    "floral": 6,
+    "spicy": 0,
+    "cereal": 3,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "shanghai-lungo.webp",
+    "box": "shanghai-lungo-box.webp"
+  },
+
+  "popularity": 3
+},
+{
+  "id": "nespresso-original-buenos-aires-lungo",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Buenos Aires Lungo",
+  "slug": "buenos-aires-lungo",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Cereal",
+    "Sweet"
+  ],
+
+  "description": "Jemné lungo inspirované argentinskou kulturou kávy s obilnými a sladkými tóny.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 3,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 4,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 3,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 8,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "buenos-aires-lungo.webp",
+    "box": "buenos-aires-lungo-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-istanbul-espresso",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "World Explorations",
+
+  "name": "Istanbul Espresso",
+  "slug": "istanbul-espresso",
+
+  "decaf": false,
+  "intensity": 10,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Spices",
+    "Almond"
+  ],
+
+  "description": "Intenzivní espresso inspirované tradiční tureckou kávou s kořenitými tóny.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 5,
+    "nutty": 6,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 8,
+    "cereal": 3,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "istanbul-espresso.webp",
+    "box": "istanbul-espresso-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-colombia",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "Colombia",
+  "slug": "colombia",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Red Fruit",
+    "Winey"
+  ],
+
+  "description": "Elegantní kolumbijská arabika s ovocným charakterem a jemnou vínovou kyselostí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 6,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 1,
+    "fruity": 9,
+    "floral": 3,
+    "spicy": 1,
+    "cereal": 3,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "colombia.webp",
+    "box": "colombia-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-ethiopia",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "Ethiopia",
+  "slug": "ethiopia",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Floral",
+    "Orange Blossom"
+  ],
+
+  "description": "Lehká etiopská arabika s výrazným květinovým aroma a citrusovou svěžestí.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 7,
+    "bitterness": 1,
+    "sweetness": 5,
+
+    "chocolate": 1,
+    "nutty": 1,
+    "caramel": 1,
+    "vanilla": 0,
+    "fruity": 8,
+    "floral": 10,
+    "spicy": 0,
+    "cereal": 2,
+
+    "milk": 1
+  },
+
+  "assets": {
+    "capsule": "ethiopia.webp",
+    "box": "ethiopia-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-indonesia",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "Indonesia",
+  "slug": "indonesia",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Woody",
+    "Tobacco"
+  ],
+
+  "description": "Plná indonéská arabika s dřevitým charakterem a sametovým tělem.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 2,
+
+    "chocolate": 6,
+    "nutty": 5,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 4,
+    "cereal": 3,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "indonesia.webp",
+    "box": "indonesia-box.webp"
+  },
+
+  "popularity": 4
+},
+{
+  "id": "nespresso-original-india",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "India",
+  "slug": "india",
+
+  "decaf": false,
+  "intensity": 11,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Spices",
+    "Cocoa"
+  ],
+
+  "description": "Plná indická arabika s kořenitým charakterem, kakaovými tóny a sametovým tělem.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 8,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 8,
+    "cereal": 2,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "india.webp",
+    "box": "india-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-nicaragua",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "Nicaragua",
+  "slug": "nicaragua",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Sweet Cereal",
+    "Honey"
+  ],
+
+  "description": "Jemná nikaragujská arabika s medovou sladkostí a obilnými tóny.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 6,
+    "vanilla": 2,
+    "fruity": 4,
+    "floral": 2,
+    "spicy": 1,
+    "cereal": 7,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "nicaragua.webp",
+    "box": "nicaragua-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-peru-organic",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Master Origins",
+
+  "name": "Peru Organic",
+  "slug": "peru-organic",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso",
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Fruity",
+    "Toasted Cereal"
+  ],
+
+  "description": "Bio arabika z Peru s ovocnými tóny, lehkou sladkostí a jemným tělem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 7,
+    "floral": 3,
+    "spicy": 1,
+    "cereal": 5,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "peru-organic.webp",
+    "box": "peru-organic-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-corto",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations",
+
+  "name": "Corto",
+  "slug": "corto",
+
+  "decaf": false,
+  "intensity": 11,
+
+  "cupSizes": [
+    "Ristretto",
+    "Espresso"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Cocoa"
+  ],
+
+  "description": "Silná baristická směs určená především pro krátké espresso.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 8,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 6,
+    "cereal": 3,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "corto.webp",
+    "box": "corto-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-original-scuro",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations",
+
+  "name": "Scuro",
+  "slug": "scuro",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Cocoa",
+    "Roasted"
+  ],
+
+  "description": "Směs navržená pro cappuccino a latte s výraznými kakaovými tóny.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 8,
+    "nutty": 5,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "scuro.webp",
+    "box": "scuro-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "nespresso-original-chiaro",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations",
+
+  "name": "Chiaro",
+  "slug": "chiaro",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Biscuit",
+    "Caramel"
+  ],
+
+  "description": "Jemnější směs vytvořená především pro latte a cappuccino s výraznou sladkostí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 4,
+    "nutty": 4,
+    "caramel": 8,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 1,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "chiaro.webp",
+    "box": "chiaro-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-vaniglia",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations Flavoured",
+
+  "name": "Sweet Vanilla",
+  "slug": "sweet-vanilla",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Vanilla",
+    "Sweet Biscuit"
+  ],
+
+  "description": "Ochucená směs s výraznou vanilkou a jemnou sušenkovou sladkostí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 5,
+    "vanilla": 10,
+    "fruity": 1,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "sweet-vanilla.webp",
+    "box": "sweet-vanilla-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-caramello",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations Flavoured",
+
+  "name": "Golden Caramel",
+  "slug": "golden-caramel",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Biscuit"
+  ],
+
+  "description": "Ochucená směs s jemnými tóny karamelu a sladkého pečiva.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 10,
+    "vanilla": 3,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "golden-caramel.webp",
+    "box": "golden-caramel-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-nocciola",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations Flavoured",
+
+  "name": "Roasted Hazelnut",
+  "slug": "roasted-hazelnut",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Hazelnut",
+    "Biscuit"
+  ],
+
+  "description": "Ochucená směs s výraznou chutí pražených lískových oříšků.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 7,
+
+    "chocolate": 2,
+    "nutty": 10,
+    "caramel": 4,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "roasted-hazelnut.webp",
+    "box": "roasted-hazelnut-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-original-cioccolatino",
+  "brand": "Nespresso",
+  "system": "Original",
+  "collection": "Barista Creations Flavoured",
+
+  "name": "Rich Chocolate",
+  "slug": "rich-chocolate",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Dark Chocolate",
+    "Cereal"
+  ],
+
+  "description": "Ochucená směs s intenzivní chutí hořké čokolády a jemně praženým základem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 6,
+
+    "chocolate": 10,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "rich-chocolate.webp",
+    "box": "rich-chocolate-box.webp"
+  },
+
+  "popularity": 4
+}
+
+]
+  
