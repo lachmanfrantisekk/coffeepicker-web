@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "dolce-gusto-espresso",
+    "brand": "NESCAFÉ Dolce Gusto",
+    "system": "Dolce Gusto",
+    "collection": "Espresso",
+
+    "name": "Espresso",
+
+    "slug": "espresso",
+
+    "decaf": false,
+    "intensity": 5,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Medium",
+
+    "officialNotes": [
+      "Fruity",
+      "Creamy"
+    ],
+
+    "description": "Vyvážené espresso s jemnou cremou, lehkou ovocností a příjemně kulatou chutí.",
+
+    "profile": {
+      "body": 3,
+      "acidity": 4,
+      "bitterness": 2,
+      "sweetness": 5,
+
+      "chocolate": 2,
+      "nutty": 2,
+      "caramel": 3,
+      "vanilla": 1,
+      "fruity": 6,
+      "floral": 2,
+      "spicy": 0,
+      "cereal": 4,
+
+      "milk": 3
+    },
+
+    "assets": {
+      "capsule": "espresso.webp",
+      "box": "espresso-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "dolce-gusto-espresso-intenso",
+    "brand": "NESCAFÉ Dolce Gusto",
+    "system": "Dolce Gusto",
+    "collection": "Espresso",
+
+    "name": "Espresso Intenso",
+
+    "slug": "espresso-intenso",
+
+    "decaf": false,
+    "intensity": 7,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Medium Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Fruit"
+    ],
+
+    "description": "Výraznější espresso s plnějším tělem, jemnou ovocností a dlouhou dochutí.",
+
+    "profile": {
+      "body": 4,
+      "acidity": 3,
+      "bitterness": 3,
+      "sweetness": 3,
+
+      "chocolate": 4,
+      "nutty": 3,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 5,
+      "floral": 1,
+      "spicy": 1,
+      "cereal": 4,
+
+      "milk": 4
+    },
+
+    "assets": {
+      "capsule": "espresso-intenso.webp",
+      "box": "espresso-intenso-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "dolce-gusto-espresso-barista",
+    "brand": "NESCAFÉ Dolce Gusto",
+    "system": "Dolce Gusto",
+    "collection": "Espresso",
+
+    "name": "Espresso Barista",
+
+    "slug": "espresso-barista",
+
+    "decaf": false,
+    "intensity": 9,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Dark Chocolate",
+      "Roasted"
+    ],
+
+    "description": "Silné espresso s bohatou cremou, tóny hořké čokolády a intenzivním praženým charakterem.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 8,
+      "nutty": 4,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 2,
+      "floral": 0,
+      "spicy": 2,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "espresso-barista.webp",
+      "box": "espresso-barista-box.webp"
+    },
+
+    "popularity": 4
+  },
+
+  {
+    "id": "dolce-gusto-espresso-napoli",
+    "brand": "NESCAFÉ Dolce Gusto",
+    "system": "Dolce Gusto",
+    "collection": "Espresso",
+
+    "name": "Espresso Napoli",
+
+    "slug": "espresso-napoli",
+
+    "decaf": false,
+    "intensity": 13,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Very Dark",
+
+    "officialNotes": [
+      "Spices",
+      "Dark Cocoa"
+    ],
+
+    "description": "Nejintenzivnější espresso Dolce Gusto s kořenitým charakterem a výraznými kakaovými tóny.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 1,
+      "bitterness": 5,
+      "sweetness": 1,
+
+      "chocolate": 9,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 5,
+      "cereal": 2,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "espresso-napoli.webp",
+      "box": "espresso-napoli-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "dolce-gusto-espresso-ardenza",
+    "brand": "NESCAFÉ Dolce Gusto",
+    "system": "Dolce Gusto",
+    "collection": "Espresso",
+
+    "name": "Espresso Ardenza",
+
+    "slug": "espresso-ardenza",
+
+    "decaf": false,
+    "intensity": 11,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Pepper",
+      "Liquorice"
+    ],
+
+    "description": "Intenzivní espresso s pepřovými tóny, lehkou lékořicí a hustou cremou.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 6,
+      "nutty": 3,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 7,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "espresso-ardenza.webp",
+      "box": "espresso-ardenza-box.webp"
+    },
+
+    "popularity": 5
+  },
+{
+  "id": "dolce-gusto-espresso-decaf",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Espresso",
+
+  "name": "Espresso Decaf",
+
+  "slug": "espresso-decaf",
+
+  "decaf": true,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Roasted",
+    "Balanced"
+  ],
+
+  "description": "Bezkofeinové espresso s plnou chutí, jemnou cremou a vyváženým praženým profilem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 1,
+    "cereal": 4,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "espresso-decaf.webp",
+    "box": "espresso-decaf-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "dolce-gusto-lungo",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Lungo",
+
+  "name": "Lungo",
+
+  "slug": "lungo",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Roasted",
+    "Balanced"
+  ],
+
+  "description": "Vyvážené lungo s jemnou cremou, lehce praženými tóny a hladkou dochutí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 1,
+    "cereal": 5,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "lungo.webp",
+    "box": "lungo-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-lungo-intenso",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Lungo",
+
+  "name": "Lungo Intenso",
+
+  "slug": "lungo-intenso",
+
+  "decaf": false,
+  "intensity": 9,
+
+  "cupSizes": [
+    "Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Dark Chocolate"
+  ],
+
+  "description": "Silnější lungo s plným tělem, kakaovými tóny a dlouhou dochutí.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 7,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "lungo-intenso.webp",
+    "box": "lungo-intenso-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-americano",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Americano",
+
+  "name": "Americano",
+
+  "slug": "americano",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Americano"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Smooth"
+  ],
+
+  "description": "Velký šálek kávy s jemným tělem, obilnými tóny a příjemně hladkým profilem.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 7,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "americano.webp",
+    "box": "americano-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-americano-intenso",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Americano",
+
+  "name": "Americano Intenso",
+
+  "slug": "americano-intenso",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Americano"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Cocoa"
+  ],
+
+  "description": "Výraznější Americano s plným tělem, praženým charakterem a kakaovou dochutí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 6,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 5,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "americano-intenso.webp",
+    "box": "americano-intenso-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "dolce-gusto-grande",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Grande",
+
+  "name": "Grande",
+
+  "slug": "grande",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Grande"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Balanced",
+    "Cereal"
+  ],
+
+  "description": "Velký šálek vyvážené kávy s jemnou cremou, obilnými tóny a hladkou chutí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 7,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "grande.webp",
+    "box": "grande-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-grande-intenso",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Grande",
+
+  "name": "Grande Intenso",
+
+  "slug": "grande-intenso",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Grande"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Cocoa"
+  ],
+
+  "description": "Silnější Grande s plným tělem, praženými tóny a jemnou kakaovou dochutí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 6,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 5,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "grande-intenso.webp",
+    "box": "grande-intenso-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-ristretto-ardenza",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Ristretto",
+
+  "name": "Ristretto Ardenza",
+
+  "slug": "ristretto-ardenza",
+
+  "decaf": false,
+  "intensity": 11,
+
+  "cupSizes": [
+    "Ristretto"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Pepper",
+    "Liquorice"
+  ],
+
+  "description": "Krátké intenzivní ristretto s pepřovým charakterem, tóny lékořice a hustou cremou.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 5,
+    "nutty": 3,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 8,
+    "cereal": 3,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "ristretto-ardenza.webp",
+    "box": "ristretto-ardenza-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-flat-white",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Milk Coffee",
+
+  "name": "Flat White",
+
+  "slug": "flat-white",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Flat White"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Creamy",
+    "Roasted"
+  ],
+
+  "description": "Vyvážená mléčná káva s jemnou mikropěnou a plnou chutí espressa.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "flat-white.webp",
+    "box": "flat-white-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-cappuccino",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Milk Coffee",
+
+  "name": "Cappuccino",
+
+  "slug": "cappuccino",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Cappuccino"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Creamy",
+    "Milky"
+  ],
+
+  "description": "Klasické cappuccino s bohatou mléčnou pěnou a jemným espresso základem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "cappuccino.webp",
+    "box": "cappuccino-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "dolce-gusto-cafe-au-lait",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Milk Coffee",
+
+  "name": "Café au Lait",
+
+  "slug": "cafe-au-lait",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Creamy",
+    "Cereal"
+  ],
+
+  "description": "Jemná mléčná káva s vyváženou chutí, obilnými tóny a hladkou pěnou.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 9
+  },
+
+  "assets": {
+    "capsule": "cafe-au-lait.webp",
+    "box": "cafe-au-lait-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-latte-macchiato",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Milk Coffee",
+
+  "name": "Latte Macchiato",
+
+  "slug": "latte-macchiato",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Latte"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Creamy",
+    "Milky"
+  ],
+
+  "description": "Klasické Latte Macchiato s bohatou mléčnou pěnou a jemným espresso základem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 5,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "latte-macchiato.webp",
+    "box": "latte-macchiato-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-caramel-latte-macchiato",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Flavoured",
+
+  "name": "Caramel Latte Macchiato",
+
+  "slug": "caramel-latte-macchiato",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Latte"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Creamy"
+  ],
+
+  "description": "Latte Macchiato s výraznou karamelovou chutí a bohatou mléčnou pěnou.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 10,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "caramel-latte-macchiato.webp",
+    "box": "caramel-latte-macchiato-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-vanilla-latte-macchiato",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Flavoured",
+
+  "name": "Vanilla Latte Macchiato",
+
+  "slug": "vanilla-latte-macchiato",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Latte"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Vanilla",
+    "Creamy"
+  ],
+
+  "description": "Latte Macchiato s jemnou vanilkovou chutí a sametovou mléčnou pěnou.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 4,
+    "vanilla": 10,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 4,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "vanilla-latte-macchiato.webp",
+    "box": "vanilla-latte-macchiato-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "dolce-gusto-chococino",
+  "brand": "NESCAFÉ Dolce Gusto",
+  "system": "Dolce Gusto",
+  "collection": "Chocolate",
+
+  "name": "Chococino",
+
+  "slug": "chococino",
+
+  "decaf": true,
+
+  "intensity": 0,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "None",
+
+  "officialNotes": [
+    "Chocolate",
+    "Creamy"
+  ],
+
+  "description": "Horká čokoláda s bohatou mléčnou pěnou a intenzivní kakaovou chutí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 0,
+    "bitterness": 1,
+    "sweetness": 9,
+
+    "chocolate": 10,
+    "nutty": 1,
+    "caramel": 3,
+    "vanilla": 2,
+    "fruity": 0,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 0,
+
+    "milk": 10
+  },
+
+  "assets": {
+    "capsule": "chococino.webp",
+    "box": "chococino-box.webp"
+  },
+
+  "popularity": 5
+}
+
+]
