@@ -1,0 +1,1629 @@
+[
+  {
+    "id": "nespresso-vertuo-altissio",
+    "brand": "Nespresso",
+    "system": "Vertuo",
+    "collection": "Espresso",
+
+    "name": "Altissio",
+    "slug": "altissio",
+
+    "decaf": false,
+    "intensity": 9,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Cereal",
+      "Roasted"
+    ],
+
+    "description": "Plné espresso s hustou cremou, výrazným praženým charakterem a obilnými tóny.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 7,
+      "nutty": 5,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 3,
+      "cereal": 7,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "altissio.webp",
+      "box": "altissio-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-vertuo-altissio-decaffeinato",
+    "brand": "Nespresso",
+    "system": "Vertuo",
+    "collection": "Espresso",
+
+    "name": "Altissio Decaffeinato",
+    "slug": "altissio-decaffeinato",
+
+    "decaf": true,
+    "intensity": 9,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Cereal",
+      "Roasted"
+    ],
+
+    "description": "Bezkofeinová varianta Altissio se zachovaným plným tělem a intenzivní chutí.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 4,
+      "sweetness": 2,
+
+      "chocolate": 7,
+      "nutty": 5,
+      "caramel": 2,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 3,
+      "cereal": 7,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "altissio-decaffeinato.webp",
+      "box": "altissio-decaffeinato-box.webp"
+    },
+
+    "popularity": 4
+  },
+
+  {
+    "id": "nespresso-vertuo-diavolitto",
+    "brand": "Nespresso",
+    "system": "Vertuo",
+    "collection": "Espresso",
+
+    "name": "Diavolitto",
+    "slug": "diavolitto",
+
+    "decaf": false,
+    "intensity": 11,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Dark",
+
+    "officialNotes": [
+      "Oak Wood",
+      "Roasted"
+    ],
+
+    "description": "Velmi intenzivní espresso s dřevitými tóny, hustým tělem a dlouhou dochutí.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 2,
+      "bitterness": 5,
+      "sweetness": 2,
+
+      "chocolate": 8,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 5,
+      "cereal": 4,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "diavolitto.webp",
+      "box": "diavolitto-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-vertuo-voltesso",
+    "brand": "Nespresso",
+    "system": "Vertuo",
+    "collection": "Espresso",
+
+    "name": "Voltesso",
+    "slug": "voltesso",
+
+    "decaf": false,
+    "intensity": 4,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Light",
+
+    "officialNotes": [
+      "Sweet Biscuit",
+      "Fruit"
+    ],
+
+    "description": "Jemné a sladké espresso s lehkou ovocností a sušenkovými tóny.",
+
+    "profile": {
+      "body": 2,
+      "acidity": 4,
+      "bitterness": 1,
+      "sweetness": 6,
+
+      "chocolate": 1,
+      "nutty": 2,
+      "caramel": 3,
+      "vanilla": 1,
+      "fruity": 7,
+      "floral": 2,
+      "spicy": 0,
+      "cereal": 6,
+
+      "milk": 2
+    },
+
+    "assets": {
+      "capsule": "voltesso.webp",
+      "box": "voltesso-box.webp"
+    },
+
+    "popularity": 5
+  },
+
+  {
+    "id": "nespresso-vertuo-il-caffe",
+    "brand": "Nespresso",
+    "system": "Vertuo",
+    "collection": "Espresso",
+
+    "name": "Il Caffè",
+    "slug": "il-caffe",
+
+    "decaf": false,
+    "intensity": 11,
+
+    "cupSizes": [
+      "Espresso"
+    ],
+
+    "roast": "Very Dark",
+
+    "officialNotes": [
+      "Roasted",
+      "Cocoa"
+    ],
+
+    "description": "Silné espresso inspirované italskou tradicí s intenzivními kakaovými tóny.",
+
+    "profile": {
+      "body": 5,
+      "acidity": 1,
+      "bitterness": 5,
+      "sweetness": 2,
+
+      "chocolate": 9,
+      "nutty": 4,
+      "caramel": 1,
+      "vanilla": 0,
+      "fruity": 1,
+      "floral": 0,
+      "spicy": 4,
+      "cereal": 3,
+
+      "milk": 5
+    },
+
+    "assets": {
+      "capsule": "il-caffe.webp",
+      "box": "il-caffe-box.webp"
+    },
+
+    "popularity": 5
+  },
+{
+  "id": "nespresso-vertuo-orafio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Espresso",
+
+  "name": "Orafio",
+  "slug": "orafio",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Caramel",
+    "Cereal"
+  ],
+
+  "description": "Jemně pražené espresso s obilnými tóny a výraznou karamelovou sladkostí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 5,
+
+    "chocolate": 4,
+    "nutty": 5,
+    "caramel": 9,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 0,
+    "spicy": 1,
+    "cereal": 6,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "orafio.webp",
+    "box": "orafio-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-toccanto",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Espresso",
+
+  "name": "Toccanto",
+  "slug": "toccanto",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Red Fruit",
+    "Caramel"
+  ],
+
+  "description": "Vyvážené espresso s ovocnými tóny a jemnou karamelovou dochutí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 8,
+    "floral": 2,
+    "spicy": 1,
+    "cereal": 3,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "toccanto.webp",
+    "box": "toccanto-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-double-espresso-chiaro",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Double Espresso",
+
+  "name": "Double Espresso Chiaro",
+  "slug": "double-espresso-chiaro",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Double Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Woody",
+    "Earthy"
+  ],
+
+  "description": "Sametové dvojité espresso s jemnými dřevitými tóny, ideální s mlékem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 4,
+    "nutty": 5,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "double-espresso-chiaro.webp",
+    "box": "double-espresso-chiaro-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-double-espresso-scuro",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Double Espresso",
+
+  "name": "Double Espresso Scuro",
+  "slug": "double-espresso-scuro",
+
+  "decaf": false,
+  "intensity": 11,
+
+  "cupSizes": [
+    "Double Espresso"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Cocoa",
+    "Roasted"
+  ],
+
+  "description": "Intenzivní dvojité espresso s bohatými kakaovými tóny, vytvořené pro mléčné nápoje.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 9,
+    "nutty": 5,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 3,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "double-espresso-scuro.webp",
+    "box": "double-espresso-scuro-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-double-espresso-dolce",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Double Espresso",
+
+  "name": "Double Espresso Dolce",
+  "slug": "double-espresso-dolce",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Double Espresso"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Sweet",
+    "Biscuit"
+  ],
+
+  "description": "Jemné dvojité espresso s nasládlým charakterem a sušenkovými tóny.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 6,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "double-espresso-dolce.webp",
+    "box": "double-espresso-dolce-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "nespresso-vertuo-fortado",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Gran Lungo",
+
+  "name": "Fortado",
+  "slug": "fortado",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Gran Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Cocoa",
+    "Oak Wood"
+  ],
+
+  "description": "Silné Gran Lungo s kakaovými tóny, dřevitým charakterem a dlouhou dochutí.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 8,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 3,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "fortado.webp",
+    "box": "fortado-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-fortado-decaffeinato",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Gran Lungo",
+
+  "name": "Fortado Decaffeinato",
+  "slug": "fortado-decaffeinato",
+
+  "decaf": true,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Gran Lungo"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Cocoa",
+    "Oak Wood"
+  ],
+
+  "description": "Bezkofeinová varianta Fortado se stejným plným tělem a kakaovým charakterem.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 8,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 3,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "fortado-decaffeinato.webp",
+    "box": "fortado-decaffeinato-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-arondio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Gran Lungo",
+
+  "name": "Arondio",
+  "slug": "arondio",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Gran Lungo"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Mild"
+  ],
+
+  "description": "Vyvážené Gran Lungo s jemnou obilnou sladkostí a lehkým tělem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 4,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 8,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "arondio.webp",
+    "box": "arondio-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-inizio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Gran Lungo",
+
+  "name": "Inizio",
+  "slug": "inizio",
+
+  "decaf": false,
+  "intensity": 4,
+
+  "cupSizes": [
+    "Gran Lungo"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Floral",
+    "Cereal"
+  ],
+
+  "description": "Jemné Gran Lungo s květinovým aroma a lehce sladkým obilným charakterem.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 4,
+    "bitterness": 1,
+    "sweetness": 5,
+
+    "chocolate": 1,
+    "nutty": 2,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 4,
+    "floral": 7,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "inizio.webp",
+    "box": "inizio-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-melozio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Melozio",
+  "slug": "melozio",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Sweet",
+    "Biscuit"
+  ],
+
+  "description": "Sametová káva s jemnou sladkostí, sušenkovými tóny a velmi vyváženým profilem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 6,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "melozio.webp",
+    "box": "melozio-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "nespresso-vertuo-melozio-decaffeinato",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Melozio Decaffeinato",
+  "slug": "melozio-decaffeinato",
+
+  "decaf": true,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Sweet",
+    "Biscuit"
+  ],
+
+  "description": "Bezkofeinová varianta Melozio s jemnou sladkostí a sušenkovými tóny.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 6,
+    "vanilla": 2,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 6,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "melozio-decaffeinato.webp",
+    "box": "melozio-decaffeinato-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-stormio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Stormio",
+  "slug": "stormio",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Woody",
+    "Spices"
+  ],
+
+  "description": "Silná káva s dřevitým charakterem, kořenitými tóny a plným tělem.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 6,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 6,
+    "cereal": 4,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "stormio.webp",
+    "box": "stormio-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-odacio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Odacio",
+  "slug": "odacio",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Cereal",
+    "Fruit"
+  ],
+
+  "description": "Vyvážená káva s lehkou ovocností, obilnými tóny a sametovým tělem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 4,
+    "bitterness": 3,
+    "sweetness": 4,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 6,
+    "floral": 2,
+    "spicy": 1,
+    "cereal": 6,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "odacio.webp",
+    "box": "odacio-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-solelio",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Solelio",
+  "slug": "solelio",
+
+  "decaf": false,
+  "intensity": 2,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Cereal",
+    "Fruit"
+  ],
+
+  "description": "Velmi jemná káva s lehkým tělem, obilnou sladkostí a svěží ovocností.",
+
+  "profile": {
+    "body": 1,
+    "acidity": 5,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 0,
+    "nutty": 1,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 6,
+    "floral": 3,
+    "spicy": 0,
+    "cereal": 7,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "solelio.webp",
+    "box": "solelio-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-mexico",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Mexico",
+  "slug": "mexico",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium Dark",
+
+  "officialNotes": [
+    "Spices",
+    "Cocoa"
+  ],
+
+  "description": "Bio arabika z Mexika s kořenitými tóny, kakaovou dochutí a plným tělem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 3,
+    "bitterness": 3,
+    "sweetness": 3,
+
+    "chocolate": 7,
+    "nutty": 4,
+    "caramel": 3,
+    "vanilla": 0,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 6,
+    "cereal": 4,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "mexico.webp",
+    "box": "mexico-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "nespresso-vertuo-colombia",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Colombia",
+  "slug": "colombia",
+
+  "decaf": false,
+  "intensity": 5,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Red Fruit",
+    "Winey"
+  ],
+
+  "description": "Kolumbijská arabika s ovocným charakterem, jemnou kyselostí a sametovým tělem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 6,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 2,
+    "vanilla": 1,
+    "fruity": 9,
+    "floral": 3,
+    "spicy": 1,
+    "cereal": 3,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "colombia.webp",
+    "box": "colombia-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-costa-rica",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Costa Rica",
+  "slug": "costa-rica",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Sweet"
+  ],
+
+  "description": "Vyvážená kostarická arabika s jemnou sladkostí, obilnými tóny a lehkou ovocností.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 4,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 4,
+    "floral": 2,
+    "spicy": 1,
+    "cereal": 6,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "costa-rica.webp",
+    "box": "costa-rica-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-el-salvador",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "El Salvador",
+  "slug": "el-salvador",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Jam",
+    "Sweet Cereal"
+  ],
+
+  "description": "Jemná káva s ovocnou sladkostí připomínající džem a lehkými obilnými tóny.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 4,
+    "bitterness": 2,
+    "sweetness": 6,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 5,
+    "vanilla": 1,
+    "fruity": 8,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 3
+  },
+
+  "assets": {
+    "capsule": "el-salvador.webp",
+    "box": "el-salvador-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-sweet-vanilla",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Sweet Vanilla",
+  "slug": "sweet-vanilla",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Vanilla",
+    "Sweet Biscuit"
+  ],
+
+  "description": "Ochucená káva s výraznou vanilkou a jemným sušenkovým charakterem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 5,
+    "vanilla": 10,
+    "fruity": 1,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "sweet-vanilla.webp",
+    "box": "sweet-vanilla-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-golden-caramel",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Golden Caramel",
+  "slug": "golden-caramel",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Caramel",
+    "Biscuit"
+  ],
+
+  "description": "Ochucená káva s bohatou karamelovou chutí a jemnou sladkostí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 8,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 10,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "golden-caramel.webp",
+    "box": "golden-caramel-box.webp"
+  },
+
+  "popularity": 5
+},
+{
+  "id": "nespresso-vertuo-roasted-hazelnut",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Roasted Hazelnut",
+  "slug": "roasted-hazelnut",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Hazelnut",
+    "Biscuit"
+  ],
+
+  "description": "Ochucená káva s výraznými tóny pražených lískových oříšků a jemnou sušenkovou sladkostí.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 2,
+    "bitterness": 2,
+    "sweetness": 7,
+
+    "chocolate": 2,
+    "nutty": 10,
+    "caramel": 4,
+    "vanilla": 2,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "roasted-hazelnut.webp",
+    "box": "roasted-hazelnut-box.webp"
+  },
+
+  "popularity": 5
+},
+
+{
+  "id": "nespresso-vertuo-rich-chocolate",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Rich Chocolate",
+  "slug": "rich-chocolate",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Dark Chocolate",
+    "Cereal"
+  ],
+
+  "description": "Ochucená káva s intenzivní chutí hořké čokolády a jemně praženým základem.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 2,
+    "bitterness": 3,
+    "sweetness": 6,
+
+    "chocolate": 10,
+    "nutty": 3,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "rich-chocolate.webp",
+    "box": "rich-chocolate-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-ice-leggero",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Ice Leggero",
+  "slug": "ice-leggero",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Double Espresso"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Fruity",
+    "Cereal"
+  ],
+
+  "description": "Dvojité espresso navržené speciálně pro přípravu na ledu s jemnou ovocností.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 5,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 2,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 7,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "ice-leggero.webp",
+    "box": "ice-leggero-box.webp"
+  },
+
+  "popularity": 4
+},
+
+{
+  "id": "nespresso-vertuo-alto-ambrato",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Alto",
+
+  "name": "Alto Ambrato",
+  "slug": "alto-ambrato",
+
+  "decaf": false,
+  "intensity": 7,
+
+  "cupSizes": [
+    "Alto"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Cereal",
+    "Roasted"
+  ],
+
+  "description": "Velký šálek kávy s vyváženým tělem, praženými obilnými tóny a dlouhou dochutí.",
+
+  "profile": {
+    "body": 4,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 4,
+
+    "chocolate": 3,
+    "nutty": 3,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 1,
+    "cereal": 7,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "alto-ambrato.webp",
+    "box": "alto-ambrato-box.webp"
+  },
+
+  "popularity": 3
+},
+
+{
+  "id": "nespresso-vertuo-alto-onice",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Alto",
+
+  "name": "Alto Onice",
+  "slug": "alto-onice",
+
+  "decaf": false,
+  "intensity": 8,
+
+  "cupSizes": [
+    "Alto"
+  ],
+
+  "roast": "Dark",
+
+  "officialNotes": [
+    "Roasted",
+    "Cocoa"
+  ],
+
+  "description": "Velký intenzivní šálek s výrazným praženým charakterem a kakaovými tóny.",
+
+  "profile": {
+    "body": 5,
+    "acidity": 2,
+    "bitterness": 4,
+    "sweetness": 2,
+
+    "chocolate": 8,
+    "nutty": 4,
+    "caramel": 2,
+    "vanilla": 0,
+    "fruity": 1,
+    "floral": 0,
+    "spicy": 2,
+    "cereal": 5,
+
+    "milk": 5
+  },
+
+  "assets": {
+    "capsule": "alto-onice.webp",
+    "box": "alto-onice-box.webp"
+  },
+
+  "popularity": 3
+},
+{
+  "id": "nespresso-vertuo-vivida",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Coffee",
+
+  "name": "Vivida",
+  "slug": "vivida",
+
+  "decaf": false,
+  "intensity": 6,
+
+  "cupSizes": [
+    "Mug"
+  ],
+
+  "roast": "Medium",
+
+  "officialNotes": [
+    "Sweet Cereal",
+    "Smooth"
+  ],
+
+  "description": "Jemná vyvážená káva s obilnou sladkostí a hladkým tělem.",
+
+  "profile": {
+    "body": 3,
+    "acidity": 3,
+    "bitterness": 2,
+    "sweetness": 5,
+
+    "chocolate": 2,
+    "nutty": 3,
+    "caramel": 4,
+    "vanilla": 1,
+    "fruity": 2,
+    "floral": 1,
+    "spicy": 0,
+    "cereal": 7,
+
+    "milk": 4
+  },
+
+  "assets": {
+    "capsule": "vivida.webp",
+    "box": "vivida-box.webp"
+  },
+
+  "popularity": 3
+},
+
+{
+  "id": "nespresso-vertuo-cold-brew-style",
+  "brand": "Nespresso",
+  "system": "Vertuo",
+  "collection": "Barista Creations",
+
+  "name": "Cold Brew Style",
+  "slug": "cold-brew-style",
+
+  "decaf": false,
+  "intensity": 2,
+
+  "cupSizes": [
+    "Carafe"
+  ],
+
+  "roast": "Light",
+
+  "officialNotes": [
+    "Sweet",
+    "Smooth"
+  ],
+
+  "description": "Káva určená pro přípravu za studena s jemným, sladkým a velmi hladkým profilem.",
+
+  "profile": {
+    "body": 2,
+    "acidity": 4,
+    "bitterness": 1,
+    "sweetness": 6,
+
+    "chocolate": 1,
+    "nutty": 1,
+    "caramel": 3,
+    "vanilla": 1,
+    "fruity": 5,
+    "floral": 2,
+    "spicy": 0,
+    "cereal": 5,
+
+    "milk": 2
+  },
+
+  "assets": {
+    "capsule": "cold-brew-style.webp",
+    "box": "cold-brew-style-box.webp"
+  },
+
+  "popularity": 3
+}
+
+]
+]
