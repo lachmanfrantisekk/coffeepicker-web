@@ -41,28 +41,29 @@ const DATABASES = [
 
 async function loadDatabase(database) {
 
-    const response = await fetch(database.file);
+    const response = await fetch(
 
-    const text = await response.text();
+        database.file,
 
-    try {
+        {
 
-        return JSON.parse(text);
+            cache: "no-cache"
 
-    } catch (error) {
+        }
 
-        console.error("Chyba v:", database.file);
-        console.error("Pozice:", error.message);
+    );
 
-        const pos = Number(error.message.match(/position (\d+)/)?.[1]);
+    if (!response.ok) {
 
-        console.log(
-            text.substring(pos - 100, pos + 100)
+        throw new Error(
+
+            `Nepodařilo se načíst ${database.file}`
+
         );
 
-        throw error;
-
     }
+
+    return await response.json();
 
 }
 
