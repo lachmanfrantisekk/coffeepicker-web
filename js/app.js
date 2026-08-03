@@ -15,6 +15,8 @@ import recommendCapsules from "./recommendation-engine.js";
 
 import * as Results from "./results.js";
 
+import "./capsule-detail.js";
+
 /* ==================================================
    DATABASES
 ================================================== */
