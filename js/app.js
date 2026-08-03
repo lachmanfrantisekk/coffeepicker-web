@@ -865,6 +865,9 @@ async function init() {
 
         );
 
+       console.log("QUESTIONS:", QUESTIONS);
+
+       console.log("DOM ANSWERS:", dom.answers);
     }
 
     catch (error) {
