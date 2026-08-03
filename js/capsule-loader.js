@@ -43,25 +43,26 @@ async function loadDatabase(database) {
 
     const response = await fetch(database.file);
 
-    if (!response.ok) {
+    const text = await response.text();
 
-        throw new Error(`Cannot load ${database.file}`);
+    try {
+
+        return JSON.parse(text);
+
+    } catch (error) {
+
+        console.error("Chyba v:", database.file);
+        console.error("Pozice:", error.message);
+
+        const pos = Number(error.message.match(/position (\d+)/)?.[1]);
+
+        console.log(
+            text.substring(pos - 100, pos + 100)
+        );
+
+        throw error;
 
     }
-
-    const capsules = await response.json();
-
-    return capsules.map(capsule => ({
-
-        ...capsule,
-
-        brand: database.brand,
-
-        system: database.system,
-
-        database: database.id
-
-    }));
 
 }
 
