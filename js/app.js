@@ -207,6 +207,8 @@ function renderQuestion() {
 
     question.options.forEach(option => {
 
+       console.log(option);
+
         const button =
 
             document.createElement("button");
@@ -238,6 +240,8 @@ function renderQuestion() {
     updateProgress();
 
     updateNavigation();
+
+   console.log("Buttons:", dom.answers.children.length);
 
 }
 
@@ -859,15 +863,17 @@ async function init() {
 
         renderQuestion();
 
+       console.log("renderQuestion START");
+
+const question = getCurrentQuestion();
+
+console.log(question);
+
         console.log(
 
             `Coffee Picker loaded (${state.capsules.length} capsules)`
 
         );
-
-       console.log("QUESTIONS:", QUESTIONS);
-
-       console.log("DOM ANSWERS:", dom.answers);
     }
 
     catch (error) {
