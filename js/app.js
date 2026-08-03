@@ -14,8 +14,6 @@ import { QUESTIONS } from "./questions.js";
 import recommendCapsules from "./recommendation-engine.js";
 
 import * as Results from "./results.js";
-import { QUESTIONS } from "./questions.js";
-import recommendCapsules from "./recommendation-engine.js";
 
 /* ==================================================
    DATABASES
@@ -44,27 +42,27 @@ const state = {
 
     answers: {
 
-        decaf: null,
+    decaf: null,
 
-        temperature: null,
+    temperature: null,
 
-        cupSize: null,
+    size: null,
 
-        milk: null,
+    milk: null,
 
-        intensity: null,
+    intensity: null,
 
-        flavours: [],
+    taste: [],
 
-        sweetness: null,
+    sweetness: null,
 
-        body: null,
+    body: null,
 
-        acidity: null,
+    acid: null,
 
-        random: false
+    surprise: false
 
-    },
+}
 
     results: []
 
@@ -118,43 +116,6 @@ const dom = {
 
 };
 
-/* ==================================================
-   LOAD DATABASES
-================================================== */
-
-async function loadDatabase(file) {
-
-    const response = await fetch(file);
-
-    if (!response.ok) {
-
-        throw new Error(
-
-            `Cannot load ${file}`
-
-        );
-
-    }
-
-    return response.json();
-
-}
-
-async function loadCapsules() {
-
-    const loaded = await Promise.all(
-
-        DATABASE_FILES.map(
-
-            loadDatabase
-
-        )
-
-    );
-
-    state.capsules = loaded.flat();
-
-}
 
 /* ==================================================
    FILTER SYSTEMS
@@ -592,19 +553,18 @@ function toggleMultiAnswer(question, option) {
 
         !Array.isArray(
 
-            state.answers.flavours
-
+            state.answers.taste
         )
 
     ) {
 
-        state.answers.flavours = [];
+       state.answers.taste = [];
 
     }
 
     const values =
 
-        state.answers.flavours;
+        state.answers.taste;
 
     const profile = option.profile;
 
@@ -753,173 +713,9 @@ function finishQuestionnaire() {
 
     );
 
-    renderResults();
-
-}
-
-/* ==================================================
-   RESULTS RENDER
-================================================== */
-
-function renderResults() {
-
-    if (!dom.resultScreen) {
-
-        return;
-
-    }
-
-    dom.questionnaire.hidden = true;
-
-    dom.resultScreen.hidden = false;
-
-    dom.resultScreen.innerHTML = "";
-
-    state.results.forEach(
-
-        (result, index) => {
-
-            dom.resultScreen.appendChild(
-
-                createResultCard(
-
-                    result,
-
-                    index
-
-                )
-
-            );
-
-        }
-
-    );
-
-}
-
-/* ==================================================
-   RESULT CARD
-================================================== */
-
-function createResultCard(result, index) {
-
-    const card =
-
-        document.createElement("article");
-
-    card.className =
-
-        "result-card";
-
-    const medal =
-
-        index === 0
-
-            ? "🥇"
-
-            : index === 1
-
-            ? "🥈"
-
-            : "🥉";
-
-    const reasons =
-
-        result.reasons
-
-            .map(
-
-                reason =>
-
-                    `<li>${reason}</li>`
-
-            )
-
-            .join("");
-
-    card.innerHTML = `
-
-        <div class="result-header">
-
-            <span class="result-medal">
-
-                ${medal}
-
-            </span>
-
-            <h2>
-
-                ${result.capsule.name}
-
-            </h2>
-
-            <span class="result-score">
-
-                ${result.percent}%
-
-            </span>
-
-        </div>
-
-        <img
-
-            class="result-capsule"
-
-            src="./assets/capsules/${result.capsule.assets.capsule}"
-
-            alt="${result.capsule.name}"
-
-        >
-
-        <p class="result-description">
-
-            ${result.capsule.description}
-
-        </p>
-
-        <ul class="result-reasons">
-
-            ${reasons}
-
-        </ul>
-
-        <div class="result-info">
-
-            <span>
-
-                ☕ ${result.capsule.intensity}
-
-            </span>
-
-            <span>
-
-                🔥 ${result.capsule.roast}
-
-            </span>
-
-            <span>
-
-                🥛 ${result.capsule.profile.milk}/10
-
-            </span>
-
-        </div>
-
-        <button
-
-            class="details-button"
-
-            data-id="${result.capsule.id}"
-
-        >
-
-            Více informací
-
-        </button>
-
-    `;
-
-    return card;
+    Results.updateResults(
+    state.results
+);
 
 }
 
@@ -1015,39 +811,29 @@ function resetQuestionnaire() {
 
     state.answers = {
 
-        decaf: null,
+    decaf: null,
 
-        temperature: null,
+    temperature: null,
 
-        cupSize: null,
+    size: null,
 
-        milk: null,
+    milk: null,
 
-        intensity: null,
+    intensity: null,
 
-        flavours: [],
+    taste: [],
 
-        sweetness: null,
+    sweetness: null,
 
-        body: null,
+    body: null,
 
-        acidity: null,
+    acid: null,
 
-        random: false
+    surprise: false
 
-    };
+};
 
-    if (dom.resultScreen) {
-
-        dom.resultScreen.hidden = true;
-
-    }
-
-    if (dom.questionnaire) {
-
-        dom.questionnaire.hidden = false;
-
-    }
+    Results.clearAndHideResults();
 
     renderQuestion();
 
@@ -1073,7 +859,7 @@ async function init() {
 
     try {
 
-        await loadCapsules();
+        state.capsules = await loadCapsules();
 
         restoreState();
 
