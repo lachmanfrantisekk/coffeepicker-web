@@ -427,7 +427,7 @@ export function recommendCapsules(capsules, answers) {
 
             result,
 
-            answers.cupSize
+            answers.size
 
         );
 
