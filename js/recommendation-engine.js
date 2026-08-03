@@ -373,6 +373,7 @@ function normalizeScores(results) {
     }
 
     const highestScore = Math.max(
+       1,
 
         ...results.map(result => result.score)
 
