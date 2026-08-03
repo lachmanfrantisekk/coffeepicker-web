@@ -71,16 +71,31 @@ async function loadDatabase(database) {
 
 async function loadCapsules() {
 
-    const loaded = await Promise.all(
+    const all = [];
 
-        DATABASES.map(loadDatabase)
+    for (const database of DATABASES) {
 
-    );
+        try {
 
-    return loaded.flat();
+            const loaded = await loadDatabase(database);
+
+            all.push(...loaded);
+
+            console.log("OK:", database.file);
+
+        } catch (error) {
+
+            console.error("CHYBA:", database.file);
+
+            throw error;
+
+        }
+
+    }
+
+    return all;
 
 }
-
 /* ==================================================
    GETTERS
 ================================================== */
