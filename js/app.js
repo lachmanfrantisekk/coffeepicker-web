@@ -19,14 +19,6 @@ import * as Results from "./results.js";
    DATABASES
 ================================================== */
 
-const DATABASE_FILES = [
-
-    "./data/capsules/nespresso-original.json",
-    "./data/capsules/nespresso-vertuo.json",
-    "./data/capsules/starbucks.json",
-    "./data/capsules/dolce-gusto.json"
-
-];
 
 /* ==================================================
    APPLICATION STATE
@@ -62,7 +54,7 @@ const state = {
 
     surprise: false
 
-}
+},
 
     results: []
 
@@ -485,6 +477,8 @@ function selectAnswer(option) {
 
             option
 
+           saveState();
+
         );
 
     }
@@ -672,24 +666,23 @@ function validateCurrentQuestion() {
    NAVIGATION OVERRIDE
 ================================================== */
 
-const oldNextQuestion = nextQuestion;
+function nextQuestion() {
 
-nextQuestion = function () {
-
-    if (
-
-        !validateCurrentQuestion()
-
-    ) {
+    if (!validateCurrentQuestion()) {
 
         return;
 
     }
 
-    oldNextQuestion();
+    if (!isLastQuestion()) {
 
-};
+        state.currentQuestion++;
 
+        renderQuestion();
+
+    }
+
+}
 /* ==================================================
    RESULTS
    Part 4 / 5
