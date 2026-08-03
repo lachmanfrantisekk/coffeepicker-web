@@ -611,66 +611,6 @@ function createActions(
 }
 
 /* ==================================================
-   UPDATE CARD
-================================================== */
-
-/* Ve funkci createCard()
-   nahraď současné:
-
-   card.append(
-       createCardHeader(...),
-       createCardImage(...),
-       createInfoGrid(...)
-   );
-
-   tímto:
-*/
-
-card.append(
-
-    createCardHeader(
-
-        capsule,
-
-        result,
-
-        index
-
-    ),
-
-    createCardImage(
-
-        capsule
-
-    ),
-
-    createInfoGrid(
-
-        capsule
-
-    ),
-
-    createDescription(
-
-        capsule
-
-    ),
-
-    createReasons(
-
-        result.reasons
-
-    ),
-
-    createActions(
-
-        capsule
-
-    )
-
-);
-
-/* ==================================================
    EMPTY STATE
    Part 4 / 4
 ================================================== */
