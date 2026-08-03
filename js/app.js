@@ -865,6 +865,12 @@ async function init() {
 
         );
 
+       const loading = document.getElementById("loading-screen");
+
+if (loading) {
+
+    loading.classList.add("hidden");
+
     }
 
     catch (error) {
