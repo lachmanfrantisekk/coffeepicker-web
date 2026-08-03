@@ -463,9 +463,9 @@ function selectAnswer(option) {
 
         );
 
-                saveState();
-
     }
+
+   saveState();
 
 }
 
@@ -690,6 +690,7 @@ function finishQuestionnaire() {
 
     );
 
+   Results.scrollResultsToTop();
 Results.updateResults(
     state.results
 );
@@ -819,6 +820,8 @@ function resetQuestionnaire() {
     surprise: false
 
 };
+
+   saveState();
 
     Results.clearAndHideResults();
 
