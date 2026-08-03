@@ -182,7 +182,77 @@
          APPLICATION
     ================================================== -->
 
-    <main id="app"></main>
+    <main id="app">
+
+    <!-- ===========================
+         QUESTIONNAIRE
+    ============================ -->
+
+    <section id="questionnaire">
+
+        <div class="progress">
+
+            <div id="progress"></div>
+
+        </div>
+
+        <header class="question-header">
+
+            <div id="question-icon"></div>
+
+            <h1 id="question-title"></h1>
+
+            <p id="question-subtitle"></p>
+
+        </header>
+
+        <section id="answers"></section>
+
+        <footer class="question-navigation">
+
+            <button
+                id="previous-button"
+                class="btn btn-glass"
+                type="button">
+
+                Zpět
+
+            </button>
+
+            <button
+                id="next-button"
+                class="btn btn-primary"
+                type="button">
+
+                Další
+
+            </button>
+
+            <button
+                id="finish-button"
+                class="btn btn-primary"
+                type="button"
+                hidden>
+
+                Zobrazit doporučení
+
+            </button>
+
+        </footer>
+
+    </section>
+
+    <!-- ===========================
+         RESULTS
+    ============================ -->
+
+    <section
+        id="results"
+        hidden>
+
+    </section>
+
+</main>
 
     <!-- ==================================================
          MODALS
@@ -220,17 +290,7 @@
          JAVASCRIPT
     ================================================== -->
 
-    <script src="js/storage.js"></script>
-
-    <script src="js/search.js"></script>
-
-    <script src="js/picker.js"></script>
-
-    <script src="js/ui.js"></script>
-
-    <script src="js/router.js"></script>
-
-    <script src="js/app.js"></script>
+<script type="module" src="js/app.js"></script>
 
 </body>
 
