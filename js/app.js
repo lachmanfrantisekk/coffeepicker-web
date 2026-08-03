@@ -858,38 +858,42 @@ async function init() {
         state.capsules = await loadCapsules();
 
         restoreState();
-       updateNavigation();
-      updateProgress();
+
+        updateNavigation();
+
+        updateProgress();
 
         renderQuestion();
 
-       console.log("renderQuestion START");
-
-const question = getCurrentQuestion();
-
-console.log(question);
-
         console.log(
-
             `Coffee Picker loaded (${state.capsules.length} capsules)`
-
         );
-    }
 
-    catch (error) {
+        // ===== SCHOVAT LOADING =====
+
+        const loading = document.getElementById("loading-screen");
+
+        if (loading) {
+
+            loading.classList.add("hidden");
+
+            setTimeout(() => {
+
+                loading.remove();
+
+            }, 450);
+
+        }
+
+    } catch (error) {
 
         console.error(error);
 
-        alert(
-
-            "Nepodařilo se načíst databázi kapslí."
-
-        );
+        alert("Nepodařilo se načíst databázi kapslí.");
 
     }
 
 }
-
 /* ==================================================
    PUBLIC API
 ================================================== */
