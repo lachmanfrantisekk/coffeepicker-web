@@ -708,6 +708,7 @@ function finishQuestionnaire() {
 
     Results.updateResults(
     state.results
+       saveState();
 );
 
 }
@@ -855,6 +856,8 @@ async function init() {
         state.capsules = await loadCapsules();
 
         restoreState();
+       updateNavigation();
+      updateProgress();
 
         renderQuestion();
 
