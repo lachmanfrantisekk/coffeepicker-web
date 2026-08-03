@@ -3,7 +3,17 @@
    app.js
    Part 1 / 5
 ================================================== */
+/* ==================================================
+   IMPORTS
+================================================== */
 
+import loadCapsules from "./capsule-loader.js";
+
+import { QUESTIONS } from "./questions.js";
+
+import recommendCapsules from "./recommendation-engine.js";
+
+import * as Results from "./results.js";
 import { QUESTIONS } from "./questions.js";
 import recommendCapsules from "./recommendation-engine.js";
 
