@@ -85,6 +85,8 @@ export function openCapsuleDetail(
 
     );
 
+   if (!modalRoot) return;
+
     modalRoot.appendChild(
 
         currentModal
@@ -593,28 +595,24 @@ function createFlavourSection(
     list.className =
         "flavour-list";
 
-    capsule.flavours.forEach(
+   (capsule.officialNotes || []).forEach(
 
-        flavour => {
+    flavour => {
 
-            const item =
-                document.createElement("span");
+        const item =
+            document.createElement("span");
 
-            item.className =
-                "flavour-chip";
+        item.className =
+            "flavour-chip";
 
-            item.textContent =
-                flavour;
+        item.textContent =
+            flavour;
 
-            list.appendChild(
+        list.appendChild(item);
 
-                item
+    }
 
-            );
-
-        }
-
-    );
+);
 
     section.append(
 
