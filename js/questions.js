@@ -201,7 +201,7 @@ export const QUESTIONS = [
 },
 
 {
-    id: "taste",
+    id: "flavours",
 
     title: "Na co máš chuť?",
 
@@ -346,7 +346,7 @@ export const QUESTIONS = [
 },
 
 {
-    id: "acid",
+    id: "acidity",
 
     title: "Kyselost",
 
@@ -383,7 +383,7 @@ export const QUESTIONS = [
 },
 
 {
-    id: "surprise",
+    id: "random",
 
     title: "Poslední otázka",
 
