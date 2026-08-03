@@ -375,22 +375,6 @@ function updateNavigation() {
 
 }
 
-function nextQuestion() {
-
-    if (
-
-        !isLastQuestion()
-
-    ) {
-
-        state.currentQuestion++;
-
-        renderQuestion();
-
-    }
-
-}
-
 function previousQuestion() {
 
     if (
@@ -477,9 +461,9 @@ function selectAnswer(option) {
 
             option
 
-           saveState();
-
         );
+
+                saveState();
 
     }
 
@@ -706,10 +690,13 @@ function finishQuestionnaire() {
 
     );
 
-    Results.updateResults(
+Results.updateResults(
     state.results
-       saveState();
 );
+
+saveState();
+
+Results.scrollResultsToTop();
 
 }
 
@@ -774,6 +761,12 @@ function restoreState() {
             state.answers = data.answers;
 
         }
+
+           if (!Array.isArray(state.answers.taste)) {
+
+    state.answers.taste = [];
+
+}
 
         if (data.selectedSystems) {
 
