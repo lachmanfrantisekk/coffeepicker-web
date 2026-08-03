@@ -1,0 +1,11 @@
+async function loadCapsules() {
+
+    const loaded = await Promise.all(
+
+        DATABASES.map(loadDatabase)
+
+    );
+
+    return loaded.flat();
+
+}
