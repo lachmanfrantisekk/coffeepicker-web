@@ -177,7 +177,7 @@ function createCard(
 
     }
 
-   card.append(
+    card.append(
 
     createCardHeader(
 
@@ -220,6 +220,7 @@ function createCard(
     )
 
 );
+   
     return card;
 
 }
