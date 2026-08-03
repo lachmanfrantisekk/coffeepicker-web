@@ -1222,3 +1222,57 @@
     }
 
 }
+
+/* ==================================================
+   ANSWERS
+================================================== */
+
+#answers {
+
+    display: grid;
+
+    gap: 16px;
+
+    margin-top: 32px;
+
+}
+
+.answer-button {
+
+    width: 100%;
+
+    padding: 18px 20px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    color: #111111;
+
+    font-size: 1rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+
+}
+
+.answer-button:hover {
+
+    transform: translateY(-2px);
+
+}
+
+.answer-button.selected {
+
+    background: #7b5cff;
+
+    color: white;
+
+}
